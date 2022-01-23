@@ -8,7 +8,7 @@ import com.example.GYM.Jasmine.model.Entities.Member;
 import java.util.List;
 import java.util.Optional;
 
-
+@CrossOrigin(origins = "https://w-gym-the-lion-frontend.herokuapp.com/")
 @RestController
 @RequestMapping(path = "api/member")
 public class MemberController<memberService> {

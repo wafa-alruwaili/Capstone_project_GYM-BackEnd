@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "https://w-gym-the-lion-frontend.herokuapp.com/")
 @RestController
 @RequestMapping(path = "api/user")
 public class UsersController {

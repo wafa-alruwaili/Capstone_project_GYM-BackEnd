@@ -8,7 +8,7 @@ import com.example.GYM.Jasmine.model.Entities.Lessons;
 import java.util.List;
 import java.util.Optional;
 
-
+@CrossOrigin(origins = "https://w-gym-the-lion-frontend.herokuapp.com/")
 @RestController
 @RequestMapping(path = "api/lessons")
 public class LessonsController<lessonsService> {

@@ -9,7 +9,7 @@ import com.example.GYM.Jasmine.model.Entities.Employees;
 import java.util.List;
 import java.util.Optional;
 
-
+@CrossOrigin(origins = "https://w-gym-the-lion-frontend.herokuapp.com/")
 @RestController
 @RequestMapping(path = "api/employees")
 public class EmployeesController<employeesService> {
